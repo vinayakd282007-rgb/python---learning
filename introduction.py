@@ -1,7 +1,0 @@
-name = input("Name: ")
-age = input("Age: ")
-college =input("College: ")
-adress = input("Adress: ")
-engineering_college = input("Engineering college: ")
-branch= input("Branch: ")
-print(f" Hi everyone i am {name} and my age is {age} . I am from {adress} and i studied in {college} and now i am studying in {engineering_college} in {branch} branch")
