@@ -1,0 +1,6 @@
+name = input("Enter your product name: ")
+brand_name = input("Enter your brand name: ")
+manufactured_year = input("Enter your product manufactured year: ")
+print(name . upper())
+print(brand_name . upper())
+print(manufactured_year)
