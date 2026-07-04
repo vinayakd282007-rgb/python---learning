@@ -1,0 +1,8 @@
+team_name = input("Enter team name: ")
+stadium_name =input("Enter stadium name: ")
+goals_scored = input("Enter goals scored: ")
+goals_against = input("Enter goals against: ")
+yellow_cards = input("Enter yellow cards: ")
+red_cards = input("Enter red cards: ")
+match_code =input("Enter match code: ")
+print(f"============================= FOOTBALL MATCH STATISTICS ==================================\n Team  : {team_name} \n Stadium  : {stadium_name} \n Goals scored  : {goals_scored} \n Goals against : {goals_against} \n Yellow cards  : {yellow_cards} \n Red cards  : {red_cards} \n Goals > Against  :{goals_scored>goals_against} \n  Match code  : {match_code}\n ==============================================================================")

@@ -1,0 +1,2 @@
+enter = input("Enter your password: ")
+print(f"========================= PASSWORD INSPECTOR ====================== \n Your password contains @: {"@" in enter} \n Your password contains #: {"#" in enter} \n Your password contains 123: {"123" in enter} \n Your password contains space: {" " in enter} \n Your password length: {len(enter)} \n ==============================================================")
