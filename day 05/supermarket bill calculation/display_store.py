@@ -1,0 +1,3 @@
+products = ["Rice", "Milk", "Sugar", "Oil", "Bread"]
+prices = [60, 30, 45, 120, 40]
+print(f"============================== BENGLURU SUPERMARKET ================================ \n Available products : \n 1.{products[0]} = {prices[0]} \n 2.{products[1]} = {prices[1]} \n 3.{products[2]} = {prices[2]} \n 4.{products[3]} = {prices[3]} \n 5.{products[4]} = {prices[4]} \n ===================================================== ")
