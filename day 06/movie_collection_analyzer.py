@@ -1,0 +1,8 @@
+movie1 = input("Enter your movie collection 1: ")
+movie2 = input("Enter your movie collection 2: ")
+movie3 = input("Enter your movie collection 3: ")
+movie4 = input("Enter your movie collection 4: ")
+movie5 = input("Enter your movie collection 5: ")
+total_movies =tuple((movie1 , movie2,  movie3 , movie4 , movie5))
+count= total_movies.count(movie1)
+print(f"======================== MOVIE COLLECTION ANALYZER ========================= \n Movies: \n 1. {total_movies[0]} \n 2. {total_movies[1]} \n 3. {total_movies[2]} \n 4. {total_movies[3]} \n 5. {total_movies[4]} \n Total movies: {len(total_movies)}    \n First movie: {total_movies[0]} \n Last movie: {total_movies[-1]}    \n Movie at index 2: {total_movies[2]} \n Index of {total_movies[3]} = 3  \n Count of movie {total_movies[0]} ={count} \nRepeated collection: {total_movies*2} \n =============================================================")
