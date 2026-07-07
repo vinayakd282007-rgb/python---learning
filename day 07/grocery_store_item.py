@@ -1,7 +1,7 @@
 items ={
       "product": input("Enter product name: "),
        "quantity":int(input("Enter quantity: ")),
-       "Price": int(input("Enter price: ")),
+       "price": int(input("Enter price: ")),
         "category" : input("Enter category: ")    }
 items["discount"] =int(input("Enter discount percentage: "))
 items.pop("category")
