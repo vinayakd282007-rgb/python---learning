@@ -60,6 +60,7 @@ print(v) #['my', 'name', 'is', 'vinayak']
 based on a specified separator (like space, comma, etc.).
  This is very useful when you have data in string format and want to convert it into a list
  '''
-  
+
 l = [int(num) for num in input("Enter a integers: ").split()]
 print(l)
+""" int(num) is expression and input("Enter a integers: ") is collection or iterable  """
