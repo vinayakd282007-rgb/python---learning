@@ -28,5 +28,5 @@ print("The first number is not greater than the second" , not(a>5))
 l = [11, 24 , 35 ,78]
 l.sort(reverse=True)#descending order
 print(l)#[78, 35, 24, 11]
-print(l[::-1])
+print(l[::-1])#to reverse order
       
