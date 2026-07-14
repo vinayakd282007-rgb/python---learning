@@ -12,15 +12,15 @@ d={
 
     }
 }
-#print(d["friend_1"]["fav_food"])
+print(d["friend_1"]["fav_food"])
 
-'''i=0
+i=0
 while i<=20:
     if i%2!=0:
         print(i)
-    i+=1'''
+    i+=1
 
-"""seat =8
+seat =8
 while seat>0:
     s = input("Do you want to book seat: Yes/No?  ").lower()
     if s=="yes":
@@ -29,42 +29,42 @@ while seat>0:
         print("you not selected seat")
     seat-=1
 print("All seats are booked!")
-"""
-'''import time
+
+import time
 t=10
 while t>0:
     print(t)
     time.sleep(1)
     t-=1
 print(" 'Happy new year' ")
-'''
-'''for i in range(1,11):
-    for j in range(1,11):
-        print(f"{i}X{j} = {i*j}")'''
 
-'''number = 3
+for i in range(1,11):
+    for j in range(1,11):
+        print(f"{i}X{j} = {i*j}")
+
+number = 3
 counter =1 
 while counter<=10:
     total = number*counter
     print(f"{number} X {counter} = {total}")
-    counter+=1'''
+    counter+=1
 
-'''total =0
+total =0
 for sum in range(1,11):
     total+=sum
-    print(total)'''
-'''
+    print(total)
+
 name = input("Enter your name: ")
 for letter in name:
-    print(letter)'''
+    print(letter)
 
-'''vowels = "aeiou"
+vowels = "aeiou"
 counter = 0
 s= input("Enter a sentence: ")
 for letter in s:
     if letter in vowels:
         counter+=1
-print(counter)   '''   
+print(counter)      
 
 products ={
     "Pen": 10,
