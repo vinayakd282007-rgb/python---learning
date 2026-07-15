@@ -1,5 +1,5 @@
 def employee_salary(employee_name , salary = 25000):
-    return (f"{employee_name}: ₹{salary}")
+    return f"{employee_name}: ₹{salary}"
 
 employee_1 = employee_salary("vinayak")
 print(employee_1)
