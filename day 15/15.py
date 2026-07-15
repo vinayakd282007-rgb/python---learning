@@ -2,7 +2,7 @@
 '''A function is a reusable block of code that performs a specific task when called. 
 Functions are useful to organize code, make it reusable, and reduce redundancy.
 '''
-'''def greet():
+def greet():
     print("Hello, Good Morning!")
 
 greet()
@@ -35,7 +35,7 @@ def func(num):
 a=10
 b = func(3)
 c=a+b
-print(c)'''
+print(c)
 
 def func():
     x = "Vinayak" #local variable
