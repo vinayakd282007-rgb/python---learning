@@ -13,5 +13,5 @@ while running:
     bill=electricity_bill(name,units)
     print(f"{name}: ₹{bill}")
     choice = input("if you want to continue:(Yes/No) ").lower()
-    if choice!="yes":
+    if choice=="no":
         running=False
